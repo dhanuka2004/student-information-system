@@ -16,7 +16,7 @@ public class StudentUI {
         panel.setLayout(new GridLayout(5, 1, 10, 10));
 
         // Create buttons
-        JButton addButton = new JButton("Add Student")
+        JButton addButton = new JButton("Add Student");
         addButton.addActionListener(e -> {
             JTextField idField = new JTextField();
             JTextField nameField = new JTextField();
